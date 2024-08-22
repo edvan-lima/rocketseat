@@ -1,0 +1,75 @@
+{
+  "extends": [
+    "universe/native",
+    "plugin:react/recommended"
+  ],
+  // "ignorePatterns": [
+  //   ".expo",
+  //   "**/node_modules/**",
+  //   "**/packages/cli/dist/**"
+  // ],
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      "error",
+      "never"
+    ]
+    // "import/order": [
+    //   "warn",
+    //   {
+    //     "groups": [
+    //       [
+    //         "builtin",
+    //         "external",
+    //         "internal"
+    //       ]
+    //     ],
+    //     "newlines-between": "always"
+    //   }
+    // ]
+    // "react/jsx-curly-brace-presence": [
+    //   "warn",
+    //   {
+    //     "props": "never",
+    //     "children": "never"
+    //   }
+    // ]
+    // "import/order": [
+    //   "warn",
+    //   {
+    //     "groups": [
+    //       [
+    //         "builtin",
+    //         "external",
+    //         "internal"
+    //       ]
+    //     ],
+    //     "newlines-between": "always"
+    //   }
+    // ],
+    // "@typescript-eslint/no-unused-vars": "warn"
+  },
+  "ignorePatterns": [
+    ".expo",
+    "**/node_modules/**",
+    "**/packages/cli/dist/**"
+  ]
+}
